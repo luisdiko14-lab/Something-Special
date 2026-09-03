@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neon Dash</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="game-shell">
+    <header><div><span class="eyebrow">ARCADE // 01</span><h1>NEON DASH</h1></div><div class="score-box">SCORE <strong id="score">0</strong></div></header>
+    <section class="hud"><span>BEST <b id="best">0</b></span><span>LEVEL <b id="level">1</b></span><span>SHIELD <b id="shield">●●●</b></span></section>
+    <canvas id="game" width="900" height="520" aria-label="Neon Dash game"></canvas>
+    <div class="controls"><button id="start">START RUN</button><span>Move: <b>WASD / ARROWS</b> · Collect ◆ · Avoid red hazards</span></div>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
